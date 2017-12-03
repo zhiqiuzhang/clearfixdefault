@@ -1,0 +1,12 @@
+/*清除浮动：*/
+.clearfix:after{
+	content: "";
+	clear: both;
+	width: 0px;
+	height: 0px;
+	display: block;
+	visibility: hidden;
+}
+.clearfix{
+	*zoom: 1;
+}
